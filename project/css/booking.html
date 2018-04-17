@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Booking</title>
+<link rel="stylesheet"  href="start.css">
+<link rel="stylesheet" href="booking.css">
+</head>
+<div>
+<style type="text/css">
+	.bk {
+		background:url(hotel_room_bed_stylish_modern_39745_1920x1080.jpg);
+		background-position: center;
+	}
+</style>
+<body class="bk">
+	<div class="topnav" id="myTopnav">
+  <a href="start.html">Home</a>
+  <a href="booking.html" class="active">Booking</a>
+  <a href="checkout.html">Checkout</a>
+  <a href="query.html">Query And Suggestions</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+</div>
+<div class="bb" id="mybook">
+<style class="bb" type="text/css">
+	.bb {
+
+background: rgba(255,255,255,.79);
+padding: 20px;
+width:300px;
+height:400px;
+}
+</style>
+<form class="tbf" method="POST" >
+FIRST AND MIDDLE NAME:<br/><input type="text" name="uname1" value="" placeholder="Enter name"/><br/>
+LAST NAME:<br/><input type="text" name="uname2" value="" placeholder="Enter lastname"/><br/>
+CHOOSE NO.OF PEOPLE:<br/>
+<select name="num" size="1">
+	<option value="1">Select</option>
+	<option value="2">one</option>
+	<option value="3">two</option>
+	<option value="4">four</option>
+	<option value="5">six</option>
+	</select>
+<br/>
+ADULTS
+<select name="num" size="1">
+	<option value="1">Select</option>
+	<option value="2">1</option>
+	<option value="3">2</option>
+	<option value="4">4</option>
+	<option value="5">6</option>
+</select>
+CHILDRENS
+<select name="num" size="1">
+	<option value="1">Select</option>
+	<option value="2">1</option>
+	<option value="3">2</option>
+	<option value="4">3</option>
+	<option value="5">4</option>
+	<option value="5">5</option>
+</select><br/>
+ROOM TYPE:<br/>
+<input type="radio" name="rtype" value="ac"/>AC
+<input type="radio" name="rtype" value="non-ac"/>NON-AC
+<br/>
+Email:<br/>
+<input type="email" name="email" value=""/><br/>
+UPLOAD A PICTURE OF ID PROOF:<br/>
+
+<input type="file" name="upload"/>
+<br/>
+ADDRESS:
+<br/>
+<textarea name="address" cols="25" rows="5"></textarea>
+<br/>
+<br/>
+<center><a href="hotelselection.html"><input type="submit" value="submit"/></a></center>
+</div>
+</form>
+</body>
+</html>

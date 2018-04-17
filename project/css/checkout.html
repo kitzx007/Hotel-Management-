@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+	<style type="text/css">
+		.bk {
+		background:url(hotel_room_bed_stylish_modern_39745_1920x1080.jpg);
+		background-position: center;
+	</style>
+	</head>
+	<link rel="stylesheet"  href="start.css">
+    <link rel="stylesheet" href="booking.css">
+<body class="bk">
+	<div class="topnav" id="myTopnav">
+	 <a href="start.html">Home</a>
+  <a href="booking.html">Booking</a>
+  <a href="checkout.html" class="active">Checkout</a>
+  <a href="query.html">Query And Suggestions</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="bb" id="mycheck">
+<form>
+<form method="POST" action+"process.php" >
+
+<center><p style="font-size:20px ">Check-in date:</p></center>
+<center><input type="date" name="indate"></center>
+<br/>
+<center><p style="font-size:20px ">Check-out date:</p></center>
+<center><input type="date" name="outdate"></center>
+<br/><br/>
+<style type="text/css">
+	.bb {
+
+background: rgba(255,255,255,.79);
+padding: 20px;
+width:300px;
+height:300px;
+}
+</style>
+<center><input type="submit" value="Checkout"></center>
+</form>
+</body>
+</html>

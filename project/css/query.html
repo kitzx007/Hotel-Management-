@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Query</title>
+	<link rel="stylesheet"  href="start.css">
+	<link rel="stylesheet" href="booking.css">
+	<style type="text/css">
+		.bk {
+		background:url(hotel_room_bed_stylish_modern_39745_1920x1080.jpg);
+		background-position: center;
+	</style>
+</head>
+<body class="bk">
+  <div class="topnav" id="myTopnav">
+  <a href="start.html">Home</a>
+  <a href="booking.html">Booking</a>
+  <a href="checkout.html">Checkout</a>
+  <a href="query.html" class="active">Query And Suggestions</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="bb" id="myquery">
+
+<form method="POST" action+"process.php">
+QUERY:<br/>
+<select name="query" value="1">
+	<option value="1">Select</option>
+	<option value="2">Room Service</option>
+	<option value="3">Room Problems</option>
+	<option value="4">Bathroom Problems</option>
+	<option value="5">Electrical Problems</option>
+	<option value="6">Others</option>
+</select>
+<br/>
+DESCRIPTION:<br/>
+<input type="text" name="uquery" id="desc">
+<br/>
+SUGGESTIONS:<br/>
+<input type="text" name="sugg" id="desc">
+<br/><br/>
+<style class="bb" type="text/css">
+	.bb {
+
+background: rgba(255,255,255,.79);
+padding: 20px;
+width:300px;
+height:300px;
+}
+</style>
+<input type="submit" value="submit">
+</div>
+</form>
+</body>
+</html>
